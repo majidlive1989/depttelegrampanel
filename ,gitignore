@@ -1,0 +1,99 @@
+# =====================
+# Environment / Secrets
+# =====================
+.env
+.env.*
+!.env.example
+
+# Telegram secrets
+*.token
+*.secret
+
+
+# =====================
+# Python Backend
+# =====================
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# =====================
+# Database
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+backend/data/
+data/
+
+
+# =====================
+# Uploads / User Files
+# =====================
+uploads/
+backend/uploads/
+
+storage/
+backend/storage/
+
+media/
+
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+backend/logs/
+
+
+# =====================
+# React Frontend
+# =====================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+
+# =====================
+# Temporary files
+# =====================
+*.tmp
+*.temp
+.cache/
+
+
+# =====================
+# Excel/PDF test files
+# =====================
+sample-*.xlsx
+sample-*.pdf
